@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "textual-key-recorder"
+version = "0.1.0"
+description = "A tool to help record what key names are known to Textual"
+authors = ["Dave Pearson <davep@davep.org>"]
+license = "GPLv3+"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "^0.38.1"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.1"
+pre-commit = "^3.4.0"
+mypy = "^1.5.1"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
