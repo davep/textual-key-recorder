@@ -1,5 +1,4 @@
 # Textual Key Recorder
 
-A tool to help record what keys result in what names in a Textual
-application.
-
+This started life as an experiment here, but has now transitioned to
+[Textualize/textual-key-recorder](https://github.com/Textualize/textual-key-recorder).
